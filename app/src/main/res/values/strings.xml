@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProjetoFinalPAAA</string>
+    <string name="title_active_login">AchaPET Login</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="login">Login</string>
 </resources>
