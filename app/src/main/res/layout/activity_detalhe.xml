@@ -82,6 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            app:background="@android:color/holo_green_dark"
+            app:backgroundTint="@android:color/holo_green_dark"
             android:onClick="editarAnimal"
             android:padding="10dp"
             android:text="Editar" />
@@ -91,9 +93,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            app:background="@android:color/holo_red_dark"
+            app:backgroundTint="@android:color/holo_red_dark"
             android:onClick="excluirAnimal"
             android:padding="10dp"
-            android:text="Excluir" />
+            android:text="Excluir"
+            app:strokeColor="#EC0D0D" />
 
         <Button
             android:id="@+id/botaoVoltar"

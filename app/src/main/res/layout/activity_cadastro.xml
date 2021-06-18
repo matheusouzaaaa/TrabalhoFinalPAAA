@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/background_light"
     android:orientation="vertical"
     tools:context=".CadastroActivity">
@@ -69,13 +70,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="cadastrarAnimal"
-            android:text="Cadastrar" />
+            android:text="Cadastrar"
+            app:background="@android:color/holo_green_dark"
+            app:backgroundTint="@android:color/holo_green_dark" />
 
         <Button
             android:id="@+id/botaoCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            app:background="@android:color/holo_red_dark"
+            app:backgroundTint="@android:color/holo_red_dark"
             android:onClick="cancelarCadastro"
             android:text="Cancelar" />
     </LinearLayout>
