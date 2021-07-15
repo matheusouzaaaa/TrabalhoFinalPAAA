@@ -5,7 +5,7 @@
     <item
         android:id="@+id/logout"
         android:title="Logout"
-        android:icon="@drawable/ic_baseline_block_24"
+        android:icon="@drawable/outline_logout_24"
         app:showAsAction="always" />
 
 
